@@ -1,0 +1,140 @@
+/* ESTILOS GERAIS */
+* {
+    color: #25282e;
+}
+body {
+    background-color: #FFF;
+}
+a,
+i {
+    transition: 0.5s;
+    text-decoration: none;
+}
+.secondary-color {
+    color: #555;
+}
+.center-imagem {
+    background-size: cover;
+    background-position: center center;
+}
+.btn {
+    text-decoration: none;
+    background-color: #25282e;
+    color: #FFF;
+    padding: 7px 10px;
+    border-radius: 0;
+}
+.btn:hover {
+    background-color: #1e8df4;;
+    color: #fff;
+}
+
+
+/* HEADER */
+#header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#header p {
+    margin-bottom: 0;
+}
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 45px;
+    margin-right: 15px;
+}
+
+
+/* NAVBAR */
+#navbar {
+    padding: 10px;
+    margin:  10px auto;
+}
+#navbar a {
+    width: 80px;
+    color: #444;
+}
+#navbar a:hover {
+    color:  #1e8df4;;
+}
+
+
+/* MAIN IMAGE */
+.main-image {
+    height: 450px;
+    background-size: cover;
+    background-image: url(../img/main-image.jpg);
+    margin-bottom: 30px;
+    position: relative;
+}
+.main-image-info {
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+
+/* GALLERY */
+#img2 {
+    background-image: url("../img/img2.jpg");
+}
+#img3 {
+    background-image: url("../img/img3.jpg");
+}
+#img4 {
+    background-image: url("../img/img4.jpg");
+}
+#img5 {
+    background-image: url("../img/img5.png");
+}
+#img6 {
+    background-image: url("../img/img1.png");
+}
+#img7 {
+    background-image: url("../img/img6.jpg");
+}
+#gallery-container h1 {
+    text-align: center;
+}
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-sm-12 {
+    margin-bottom: 50px;
+}
+.small-image-container{
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-weight: 700
+}
+/* FOOTER */
+footer{
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+footer i{
+    font-size: 25px;
+    color:#041f38;
+}
+#social-icons-container{
+    padding: 25px;
+}
+#social-icons-container div{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    margin: 20px;
+}
+footer a:hover i{
+    color: #1e8df4;
+}
